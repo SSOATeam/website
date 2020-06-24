@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Get involved"
-permalink: /get-involved/
 ---
 
 # Join Karang to become part of a digital network and marketplace…
