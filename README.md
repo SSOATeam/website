@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Karang
 
 Link to [about page](ABOUT.md)
 
