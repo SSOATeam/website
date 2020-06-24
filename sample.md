@@ -1,7 +1,7 @@
 <!--
 ```
 ---
-layout: page
+layout: default
 title: "PAGE TITLE"
 ---
 ```
