@@ -4,7 +4,7 @@
 
 ## Here's how it would work for YOU:
 
-![howitworks](https://drive.google.com/file/d/1VRxyIMuabGtt5du9cMjJwHsSug4W3Ecc/view?usp=sharing)
+![howitworks](<a href="https://ibb.co/m92xwFq"><img src="https://i.ibb.co/0C6wSVM/Karang-howitworks.png" alt="Karang-howitworks" border="0"></a>)
 
 With Karang's technology...
 - Ownership remains with the data creator.
