@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+Link to [about page](ABOUT.md)
+
 This is an edit.
 
 You can use the [editor on GitHub](https://github.com/SSOATeam/website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
