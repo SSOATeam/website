@@ -1,0 +1,18 @@
+# Potential Use-Cases
+
+## Check out just some ideas on how Karang could be useful!
+
+### Harmful algal blooms
+**Problem:** Hamful Algal Blooms (HABs) are estimated to generate over $1 billion in damages globally every year. How can communities and businesses mitigate and adapt to minimize these losses?
+
+**Solution:** HAB predictions can help communities and businesses plan for these events, and even reduce their intensity and severity. But accurately predicting HABs requires continuous aquatic monitoring which is costly and complicated. Karang can gather the necessary funding, and manage the movement of aquatic information to enable HAB prediction at exponentially lower cost! Everyone who would benefit from HAB predictions becomes a node in Karang (ex. local water quality monitoring agencies, fishers and aquaculturists, coastal resorts and restaurants, recreational beach goers and boaters etc.). Each of these beneficiaries specifies their willingness to pay for HAB prediction. Karang combines these willingnesses to pay into a single pool of funds. This pool can then be used to finance the installation and maintenance of a continuous aquatic monitoring program. Aquatic data from automated sensors installed on the boats of local coastal fishers can be fed into a HAB prediction model, while funds can be pulled from the funding pool and distributed to the participating fishers and others contributing to monitoring and prediction!
+
+### Bomb Fishing Prevention
+**Problem:** Bomb fishing is estimated to cost over $78 billion annually worldwide. How can communities discourage this harmful practice to reduce their losses?
+
+**Solution:** With real-time acoustic monitoring, authorities can apprehend bomb fishers on the water using minimal reasources. But real-time detection of bomb blasts requires and expensive suite of technologies. However, just like with HABs, Karang can pool together willingness to pay for bomb fishing prevention across different beneficiaries within a community, and use this pool of funds to finance the installation and upkeep of the monitoring technology. Underwater hydrophones on the boats of small scale fishers would be used to detect and locate bomb blasts in real time. An alert would immediately be sent to the authorities containing a timestamp of the blast and the approximate GPS coordinates so that patrols can head straight to the area to catch the offender.
+
+### Coupled Coastal Insurance Schemes
+**Problem:** Global coastal weather-related losses totaled over $150 billion in 2019, $102 billion of which were not even insured. How can coastal communities reduce weather-related losses, and protect their assets?
+
+**Solution:** Healthy coral reef ecosystems globally provide roughly $41 billion in net economic benefits each year, so keeping reefs intact can yield major dividends. Because a key benefit of helathy reefs is their ability to protect coastalines from storm and flood damage, coastal property owners would benefit from coral reef insurance which could be used to help restore reefs when damaged. But how do you convince every property owner to get reef insurance when they could easily reep benefits from their neighbor's policy? Karang could couple coral reef insurance to property insurance. By enabling coastal monitoring systems like those mentioned in the above HAB and bomb fishing examples, Karang can get insurers the data they need to design parametric insurnce schemes for reefs. WIth Karang, coastal property owners that buy reef insurance would receive a discount on their property insuance, coupling reef and property insurance, and effectively incentivizing coral reef protection and restoration.
