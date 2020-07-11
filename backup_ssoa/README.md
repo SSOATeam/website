@@ -1,5 +1,3 @@
-# Karang
-
 ## We discover hard-to-get data so that you can `________________`.
 
 ### Need coastal data or analysis? Want to sell coastal data or provide analysis? Sign up to get involved in our pilot projects!
