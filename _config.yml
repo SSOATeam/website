@@ -1,12 +1,12 @@
 # ----
 # Site
 
-title: Justice Template
+title: Karang
 url: "https://orchid-heron.cloudvent.net"
-baseurl: 
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
+# baseurl:
+# google_analytics_key:
+# google_maps_javascript_api_key:
+# disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -32,15 +32,13 @@ collections:
   - "staff_members"
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: page
       background_image_path: /uploads/building.jpg
       image: /uploads/building.jpg
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -51,8 +49,7 @@ defaults:
           height: 2000
       _comments:
         image: Shown in social shares and the advice list.
-  -
-    scope:
+  - scope:
       path: ""
       type: "staff_members"
     values:
