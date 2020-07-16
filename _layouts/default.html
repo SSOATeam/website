@@ -42,13 +42,17 @@
 		</div>
 	</header>
 
-	<section class="main">
-		<div class="container">
-			{{ content }}
-		</div>
-	</section>
 
-	{% if page.call_to_action == 'Map' and site.google_maps_javascript_api_key %}
+	{% if page.call_to_action == 'Contact'  %}
+	<section class="quote-section">
+		<p class="container editable">
+			<a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you. Your first
+			consultation is free.
+			We discover hard-to-get data so that you can `________________`.
+		</p>
+	</section>
+	{% endif %}
+	<!-- {% if page.call_to_action == 'Map' and site.google_maps_javascript_api_key %}
 	<section class="map-section">
 		<div id="map"></div>
 	</section>
@@ -66,7 +70,15 @@
 			various areas of the law.
 		</p>
 	</section>
-	{% endif %}
+	{% endif %} -->
+
+	<section class="main">
+		<div class="container">
+			{{ content }}
+		</div>
+	</section>
+
+
 
 	<footer>
 		<div class="container">
