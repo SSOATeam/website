@@ -4,19 +4,49 @@ call_to_action: Contact
 background_image_path:
 large_header: false
 show_in_navigation: true
-navigation_order: 2
+navigation_order: 3
 ---
-
-<p class="editable">Get an introduction to some industry topics and stay informed with our in-depth advice articles.</p>
-
-<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Update Advice
-		Posts</a></p>
-
-<ol class="post-list">
-	{% for post in paginator.posts %}
-	{% include post-summary.html post=post %}
-	{% endfor %}
-</ol>
+<h1 id="potential-use-cases">Potential Use-Cases</h1>
+<h2 id="check-out-just-some-ideas-on-how-karang-could-be-useful-">Check out just some ideas on how Karang could be
+	useful!</h2>
+<h3 id="harmful-algal-blooms">Harmful algal blooms</h3>
+<p><strong>Problem:</strong> Hamful Algal Blooms (HABs) are estimated to generate over $1 billion in damages globally
+	every year. How can communities and businesses mitigate and adapt to minimize these losses?</p>
+<p><strong>Solution:</strong> HAB predictions can help communities and businesses plan for these events, and even reduce
+	their intensity and severity. But accurately predicting HABs requires continuous aquatic monitoring which is costly
+	and complicated. Karang can gather the necessary funding, and manage the movement of aquatic information to enable
+	HAB prediction at exponentially lower cost! Everyone who would benefit from HAB predictions becomes a node in Karang
+	(ex. local water quality monitoring agencies, fishers and aquaculturists, coastal resorts and restaurants,
+	recreational beach goers and boaters etc.). Each of these beneficiaries specifies their willingness to pay for HAB
+	prediction. Karang combines these willingnesses to pay into a single pool of funds. This pool can then be used to
+	finance the installation and maintenance of a continuous aquatic monitoring program. Aquatic data from automated
+	sensors installed on the boats of local coastal fishers can be fed into a HAB prediction model, while funds can be
+	pulled from the funding pool and distributed to the participating fishers and others contributing to monitoring and
+	prediction!</p>
+<h3 id="bomb-fishing-prevention">Bomb Fishing Prevention</h3>
+<p><strong>Problem:</strong> Bomb fishing is estimated to cost over $78 billion annually worldwide. How can communities
+	discourage this harmful practice to reduce their losses?</p>
+<p><strong>Solution:</strong> With real-time acoustic monitoring, authorities can apprehend bomb fishers on the water
+	using minimal reasources. But real-time detection of bomb blasts requires and expensive suite of technologies.
+	However, just like with HABs, Karang can pool together willingness to pay for bomb fishing prevention across
+	different beneficiaries within a community, and use this pool of funds to finance the installation and upkeep of the
+	monitoring technology. Underwater hydrophones on the boats of small scale fishers would be used to detect and locate
+	bomb blasts in real time. An alert would immediately be sent to the authorities containing a timestamp of the blast
+	and the approximate GPS coordinates so that patrols can head straight to the area to catch the offender.</p>
+<h3 id="coupled-coastal-insurance-schemes">Coupled Coastal Insurance Schemes</h3>
+<p><strong>Problem:</strong> Global coastal weather-related losses totaled over $150 billion in 2019, $102 billion of
+	which were not even insured. How can coastal communities reduce weather-related losses, and protect their assets?
+</p>
+<p><strong>Solution:</strong> Healthy coral reef ecosystems globally provide roughly $41 billion in net economic
+	benefits each year, so keeping reefs intact can yield major dividends. Because a key benefit of helathy reefs is
+	their ability to protect coastalines from storm and flood damage, coastal property owners would benefit from coral
+	reef insurance which could be used to help restore reefs when damaged. But how do you convince every property owner
+	to get reef insurance when they could easily reep benefits from their neighbor&#39;s policy? Karang could couple
+	coral reef insurance to property insurance. By enabling coastal monitoring systems like those mentioned in the above
+	HAB and bomb fishing examples, Karang can get insurers the data they need to design parametric insurnce schemes for
+	reefs. WIth Karang, coastal property owners that buy reef insurance would receive a discount on their property
+	insuance, coupling reef and property insurance, and effectively incentivizing coral reef protection and restoration.
+</p>
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
