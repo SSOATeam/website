@@ -1,5 +1,4 @@
 ---
-title: Contact
 call_to_action: Map
 background_image_path:
 large_header: false
@@ -10,77 +9,115 @@ latitude: -45.8787605
 longitude: 170.5027976
 zoom: 13
 ---
+<style>
+	.row {
+		display: flex;
+		align-items: center;
+	}
 
+	.pcard {
+		margin-bottom: 20px;
+		margin-left: 20px;
+	}
+
+	.pcard:first-child {
+		margin-left: 0;
+	}
+
+	.pcard>img {
+		height: 400px;
+	}
+
+	.nomargin {
+		margin: 0 !important;
+	}
+</style>
 <p class="editable">
-<h3 id="how-does-karang-work-">How does Karang work?</h3>
-<p
-	id="karang-aims-to-overcome-the-funding-and-coordination-obstacles-that-prevent-access-to-data-and-analysis-making-an-informed-decision-shouldn-t-be-dependent-budgets-or-ftes-">
-	Karang aims to overcome the funding and coordination obstacles that prevent access to data and analysis. Making an
-	informed decision shouldn&#39;t be dependent budgets or FTEs.</p>
-<p id="here-s-how-it-would-work-for-you-">Here&#39;s how it would work for YOU:</p>
-<p><img src="https://i.ibb.co/0C6wSVM/Karang-howitworks.png" alt="howitworks"></p>
-<p>With Karang&#39;s technology...</p>
-<ul>
-	<li>Ownership remains with the data creator.</li>
-	<li>Transactions are direct between beneficiaries and producers.</li>
-	<li>Exchanges are secure &amp; confidential, yet traceable.</li>
-	<li>Members specify their own terms &amp; conditions for participation. An exchange won&#39;t occur unless it meets
-		your requirements.</li>
-</ul>
-<h2 id="here-s-how-it-works-for-us-">Here&#39;s how it works for us:</h2>
-<p>We form a digital network of data/analysis producers and beneficiaries (that&#39;s YOU!).
-	Network members describe their needs/services, and these descriptions enable Karang to meet these needs by pooling
-	and connecting resources within the network.
-	Similar data/analysis is pooled to satisfy (a) particular beneficiary(ies), while payments for similar data/analysis
-	are also pooled to finance this data creation/analysis.
-	The technology Karang uses allows this network to form an infinte number of ever-changing channels to satisfy any
-	and every unique need.</p>
-<h2 id="and-here-s-what-we-re-doing-behind-the-scenes-">And here&#39;s what we&#39;re doing behind the scenes:</h2>
 
-</p>
-
-<div class="columns">
-	<div class="column">
-		<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong>
-				Update Company Details</a></p>
-
-		<label>Phone Number</label>
-		<p class="contact-info"><a
-				href="tel:{{ site.data.company.contact_phone_number }}">{{ site.data.company.contact_phone_number }}</a>
-		</p>
-
-		<label>Email Address</label>
-		<p class="contact-info"><a
-				href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a>
-		</p>
-
-		<label>Postal Address</label>
-		<address class="contact-info">{{ site.data.company.postal_address | replace: ',', '<br>' }}</address>
-		<label>Address</label>
-		<address class="contact-info">{{ site.data.company.address | replace: ',', '<br>' }}</address>
+<h3 id="get-to-know-us-">Get to know us!</h3>
+<h4 id="got-questions-want-to-get-in-touch-contact-us-here-https-ssoateam-github-io-website-get-involved-md-">Got
+	questions; want to get in touch? Contact us <a href="https://ssoateam.github.io/website/get-involved.md">here</a>.
+</h4>
+<br>
+<div class='row'>
+	<div class='pcard'>
+		<img class='cardImg' src="https://i.ibb.co/nbRnK3m/2018-08-11-august-11-2018-1639-4jpg-46501251811-o.jpg"
+			alt="2018-08-11-august-11-2018-1639-4jpg-46501251811-o">
+		<p class='nomargin'>Kat Leigh </p>
+		<h6 class='nomargin'>Leader &amp; Founder</h6>
+		<a href="www.linkedin.com/in/katharine-leigh-4821759a">LinkedIn</a>
 	</div>
+	<div class='pcard'>
+		<img class='cardImg' src="https://www.idahoagc.org/sites/default/files/default_images/default-medium.png"
+			alt="2018-08-11-august-11-2018-1639-4jpg-46501251811-o">
 
-	<div class="column">
-		<form method="post" action="/contact-success/">
-			<label for="email_address">Email Address</label>
-			<input id="email_address" type="text" name="email">
+		<!-- <a href="" alt="Image of Amelia">Image of Amelia</a> -->
+		<p class='nomargin'> Amelia Helland </p>
+		<h6 class='nomargin'>Co-founder</h6>
+		<a href="https://www.linkedin.com/in/amelia-helland/">LinkedIn</a>
+	</div>
+</div>
 
-			<label for="name">Name</label>
-			<input id="name" type="text" name="name">
+<div class='row'>
+	<div class='pcard'>
+		<img class='cardImg' src="https://i.ibb.co/NLm8WfG/al-van-headshot.jpg"
+			alt="2018-08-11-august-11-2018-1639-4jpg-46501251811-o">
+		<p class='nomargin'>Al-Van Basco</p>
+		<h6 class='nomargin'>Systems Architect</h6>
+		<a href="https://www.linkedin.com/in/alvanbasco">LinkedIn</a>
+	</div>
+	<div class='pcard'>
+		<img class='cardImg' src="https://i.ibb.co/bgJ2480/david-headshot.png"
+			alt="2018-08-11-august-11-2018-1639-4jpg-46501251811-o">
 
-			<label for="message">Message</label>
-			<textarea id="message" name="message"></textarea>
+		<p class='nomargin'> David Rios Y Valles </p>
+		<h6 class='nomargin'>Backend Developer</h6>
+		<a href="https://www.linkedin.com/in/davidryv/">LinkedIn</a>
+	</div>
+</div>
 
-			<input type="hidden" name="_to" value="{{ site.data.company.contact_email_address }}">
-			<input type="text" name="_gotcha" style="display: none;">
+<div class='row'>
+	<div class='pcard'>
+		<img class='cardImg' src="https://i.ibb.co/QFD92Vc/IMG-2209.jpg"
+			alt="2018-08-11-august-11-2018-1639-4jpg-46501251811-o">
+		<p class='nomargin'>Jui-An Wang </p>
+		<h6 class='nomargin'>Backend Developer</h6>
+		<a href="https://www.linkedin.com/in/jui-an-wang/">LinkedIn</a>
+	</div>
+	<div class='pcard'>
+		<img class='cardImg' src="https://i.ibb.co/Wv4Sy4N/eddie-headshot.jpg"
+			alt="2018-08-11-august-11-2018-1639-4jpg-46501251811-o">
 
-			<input type="submit" value="Send Message">
-		</form>
+		<!-- <a href="" alt="Image of Amelia">Image of Amelia</a> -->
+		<p class='nomargin'> Eddie Zhang </p>
+		<h6 class='nomargin'>Frontend Developer</h6>
+		<a href="https://www.linkedin.com/in/eddie-zhang-175401196">LinkedIn</a>
+	</div>
+</div>
+<div class='row'>
+	<div class='pcard'>
+		<img class='cardImg' src="https://i.ibb.co/8sGcrVH/krti-headshot.jpg"
+			alt="2018-08-11-august-11-2018-1639-4jpg-46501251811-o">
+		<p class='nomargin'>Krti Tallam </p>
+		<h6 class='nomargin'>Ecological Modeling &amp; Machine Learning Lead </h6>
+		<a href="https://www.linkedin.com/in/krti-tallam/">LinkedIn</a>
+	</div>
+	<div class='pcard'>
+		<img class='cardImg' src="https://i.ibb.co/7ygm04P/andrew-headshot.jpg"
+			alt="2018-08-11-august-11-2018-1639-4jpg-46501251811-o">
+
+		<p class='nomargin'> Andrew Johnson </p>
+		<h6 class='nomargin'>Ocean &amp; Fisheries Science Lead</h6>
+		<a href="https://www.linkedin.com/in/andrew-frederick-johnson-938976187/">LinkedIn</a>
 	</div>
 </div>
 
 
-{% if site.google_maps_javascript_api_key and page.call_to_action == 'Map' %}
+
+</div>
+
+
+<!--  {% if site.google_maps_javascript_api_key and page.call_to_action == 'Map' %}
 <script>
 	window.mapData = {{ page.map | jsonify }};
 
@@ -112,4 +149,4 @@ zoom: 13
 </script>
 <script async defer
 	src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
-{% endif %}
+{% endif %} -->
