@@ -9,7 +9,13 @@
 	{% seo %}
 	{% feed_meta %}
 
+
+	<!-- Latest compiled and minified CSS -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+	<script src="{{ site.baseurl }}/js/text-rotater.min.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/simpletextrotator.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 	<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
@@ -46,9 +52,11 @@
 	{% if page.call_to_action != 'Contact'  %}
 	<section class="quote-section">
 		<p class="container editable">
-			<a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you. Your first
-			consultation is free.
-			We discover hard-to-get data so that you can `________________`.
+			We discover hard-to-get data so that you can <span class="rotate">predict harmful algal blooms,
+				dynamically adapt mariculture operations, apprehend bomb fishers in real-time,
+				insure natural assets like coral reefs, compare risks across coastal development
+				proposals, conduct coastal research, quantify the risk of natural disasters, build responsible
+				infrastructure.</span>
 		</p>
 	</section>
 	{% endif %}
@@ -122,11 +130,16 @@
 			<p class="container">
 				&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }} &bull;
 				<a href="{{ site.baseurl }}/terms/">Terms</a>
-				&bull;
-				Template by <a href="http://cloudcannon.com/">CloudCannon</a>
 			</p>
 		</div>
 	</footer>
 </body>
 
 </html>
+<script>
+	$(".rotate").textrotator({
+		animation: "flipUp", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+		separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+		speed: 5000 // How many milliseconds until the next word show.
+	});
+</script>
