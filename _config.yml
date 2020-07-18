@@ -31,8 +31,8 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: /images/background.png
-      image: /images/background.png
+      background_image_path: /images/karang.png
+      image: /images/karang.png
   - scope:
       path: ""
       type: "posts"
