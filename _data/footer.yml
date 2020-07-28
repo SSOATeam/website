@@ -4,8 +4,10 @@
       link: /
     - name: About
       link: /about/
-    - name: Services
-      link: /services/
+    - name: How it works
+      link: /how-it-works/
+    - name: Use Cases
+      link: /use-cases/
     - name: Contact
       link: /contact/
 # - title: Social

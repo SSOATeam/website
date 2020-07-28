@@ -12,14 +12,13 @@
 
 	<!-- Latest compiled and minified CSS -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
-	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+	<link rel="icon" type="image/ico" href="{{ site.baseurl }}/images/favicon.ico">
 	<script src="{{ site.baseurl }}/js/text-rotater.min.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/simpletextrotator.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 	<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
 
 	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 	<script>
@@ -52,8 +51,8 @@
 	{% if page.call_to_action != 'Contact'  %}
 	<section class="quote-section">
 		<p class="container editable">
-			We discover hard-to-get data so that you can </p>
-		<p class='container'><span class="rotate">predict harmful algal blooms,
+			We discover hard-to-get data so that you can...</p>
+		<p class='container'><span style='text-decoration: underline;' class="rotate">predict harmful algal blooms,
 				dynamically adapt mariculture operations, apprehend bomb fishers in real-time,
 				insure natural assets like coral reefs, compare coastal development
 				proposals, conduct coastal research, quantify the risk of natural disasters, build responsible
@@ -138,7 +137,7 @@
 </html>
 <script>
 	$(".rotate").textrotator({
-		animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+		animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
 		separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
 		speed: 5000 // How many milliseconds until the next word show.
 	});
